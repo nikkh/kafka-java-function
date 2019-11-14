@@ -9,8 +9,6 @@ import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;     //v0.11.0.0
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Properties;
 import java.util.logging.Level;
 
